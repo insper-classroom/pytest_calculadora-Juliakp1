@@ -29,8 +29,9 @@ def media_lista_valores(v:list):
     if v == [] or v == None:
         return 0
 
+    finalList = []
     for i in range(0, len(v)):
         if v[i] == int:
             finalList.append()
             
-    return np.mean(v)
+    return np.mean(finalList)
